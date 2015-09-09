@@ -45,8 +45,8 @@ git log show a summary of changes and allows you to select the appropriate chang
 How might using version control make you more confident to make changes that
 could break something?
 
-    Fill in your answer here
+You know you can trace code changes and revert back to previous code states.
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    Fill in your answer here
+I'll use Git for local experiments.clone
