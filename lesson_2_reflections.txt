@@ -12,6 +12,9 @@ The staging area allows you to select a subset of files changed. It also allows 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+Branches are helpful when you want to try adding a new feature which is speperate to the main program. For example when you need to release fixes to a live system while working on a side project to add another feature or when you are working in a team. it allows you to seperate the changes and have multiple commits on a speperate branch - and leave the original in its working state.
+Branches compartmentalise and allow work to be donw seperately from the main branch.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
