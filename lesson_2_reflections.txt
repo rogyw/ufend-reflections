@@ -5,8 +5,9 @@ How is the staging area different from the working directory and the repository?
 What value do you think it offers?
 Staging area offers an area where you can collect a subset of files which contain files whitch relate to the next commit you want to make. You can seperate out which files you want to update. The working directory can be a different version or contain other edited files not to be included in the next commit. It offers the advantage of easier management of multiple files in commits.
 
-How can you use the staging area to make sure you have one commit per logical
-change?
+How can you use the staging area to make sure you have one commit per logical change?
+
+The staging area allows you to select a subset of files changed. It also allows you to compare what changes are in the staged area - by using git diff --staged to see what is different between staged and most recent commit. git status also helps identify what files are in staged area.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
