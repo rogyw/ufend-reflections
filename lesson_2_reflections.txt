@@ -21,5 +21,8 @@ Diagrams let you visually see the differnt branches and the parents of each comm
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Merging two branches results in a single branch including both branches commits in order of time stamp. representing the branches seperately in the diagram allows us to visually see the commits related to each branch.
+Having the arrows between commits allows us to see the parent to each commit. i.e. each commit has an arrow pointing to its parent commit so we can see the order of commits and trace back.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
