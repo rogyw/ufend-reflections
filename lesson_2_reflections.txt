@@ -1,45 +1,58 @@
 What happens when you initialize a repository? Why do you need to do it?
-Git initialises an empty repository data structure (a hidden .Git folder)  which is used to store extra data related to commits.
+
+Git initializes an empty repository data structure (a hidden .Git folder)  which is used to store extra data related to commits.
+
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-Staging area offers an area where you can collect a subset of files which contain files whitch relate to the next commit you want to make. You can seperate out which files you want to update. The working directory can be a different version or contain other edited files not to be included in the next commit. It offers the advantage of easier management of multiple files in commits.
+
+Staging area offers an area where you can collect a subset of files that relate to the next commit you want to make. You can separate out the files you want to update. The working directory can be a different version or contain other edited files not to be included in the next commit. It offers the advantage of easier management of multiple files in commits.
+
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-The staging area allows you to select a subset of files changed. It also allows you to compare what changes are in the staged area - by using git diff --staged to see what is different between staged and most recent commit. git status also helps identify what files are in staged area.
+The staging area allows you to select a subset of changed files. It also allows you to compare what changes are in the staged area - by using git diff --staged to see what is different between staged and most recent commit. git status also helps identify what files are in staged area.
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
-Branches are helpful when you want to try adding a new feature which is speperate to the main program. For example when you need to release fixes to a live system while working on a side project to add another feature or when you are working in a team. it allows you to seperate the changes and have multiple commits on a speperate branch - and leave the original in its working state.
-Branches compartmentalise and allow work to be donw seperately from the main branch.
+Branches are helpful when you want to try adding a new feature which is separate to the main program. For example when you need to release fixes to a live system while working on a side project to add another feature or when you are working in a team. It allows you to separate the changes and have multiple commits on a separate branch - and leave the original in its working state.
+Branches compartmentalise and allow work to be down separately from the main branch.
+
 
 How do the diagrams help you visualize the branch structure?
-Diagrams let you visually see the differnt branches and the parents of each commit. It also allows you to visually see any commits which are not included in the branches you are looking at. or get your bearings about the current situation with the commit changes. you can see the parent commits, you can see which commits are included in each branch, and what commits are differnt in the branches. i.e. whats been done in each branch.
+
+Diagrams let you visually see the different branches and the parents of each commit. It also allows you to visually see any commits that are not included in the branches you are looking at, or get your bearings about the current situation with the commit changes. You can see the parent commits. You can see which commits are included in each branch and what commits are different in the branches. i.e. whats been done in each branch.
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
-Merging two branches results in a single branch including both branches commits in order of time stamp. representing the branches seperately in the diagram allows us to visually see the commits related to each branch.
+Merging two branches results in a single branch including both branches commits in order of time stamp.
+Representing the branches separately in the diagram allows us to visually see the commits related to each branch.
 Having the arrows between commits allows us to see the parent to each commit. i.e. each commit has an arrow pointing to its parent commit so we can see the order of commits and trace back.
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
 
-automatic merging pros:
+Automatic merging pros:
 faster
 able to handle a lot of changes - so easier
 reliable as it asks where potential conflicts exist
 
-Cons: cant be aware of all situations
+Cons:
+cant be aware of all situations
 works on a best effort approach
 leaves out some changes and asks for user to decide
+could make mistakes
 
 Manual:
 Pros:
 forces user to be aware of changes
 ensures all merges get a user to look at things
+
 Cons:
 Slow
 complex
