@@ -16,6 +16,7 @@ Branches are helpful when you want to try adding a new feature which is speperat
 Branches compartmentalise and allow work to be donw seperately from the main branch.
 
 How do the diagrams help you visualize the branch structure?
+Diagrams let you visually see the differnt branches and the parents of each commit. It also allows you to visually see any commits which are not included in the branches you are looking at. or get your bearings about the current situation with the commit changes. you can see the parent commits, you can see which commits are included in each branch, and what commits are differnt in the branches. i.e. whats been done in each branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
