@@ -9,12 +9,18 @@ local?
  - if your local environment isn't suitable for retaining content. e.g. travel
  - if security is required
  - if additional resources/capacity/functionality is required
- 
+
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+ - remote may be under control of a different entity (Company/Individual/Group)
+ - any changes made by other contributiors do not interfere with your branch
+ - something may go wrong or unexpected results may occur
+ - to use remote as a backup
+ - to keep remote clean and allow you to experiement more locally and discard
+ - may not have access to network/remote temporarily
+
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
