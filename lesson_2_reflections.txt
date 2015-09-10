@@ -26,3 +26,21 @@ Having the arrows between commits allows us to see the parent to each commit. i.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+automatic merging pros:
+faster
+able to handle a lot of changes - so easier
+reliable as it asks where potential conflicts exist
+
+Cons: cant be aware of all situations
+works on a best effort approach
+leaves out some changes and asks for user to decide
+
+Manual:
+Pros:
+forces user to be aware of changes
+ensures all merges get a user to look at things
+Cons:
+Slow
+complex
+unnecessary
