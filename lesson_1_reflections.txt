@@ -3,11 +3,12 @@ was introduced?
 
 Narrowed down the possible areas or the error within the file. made it easy to compare different versions as well - showing the lines of code.
 
+
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
 See changes to get an understanding how to improve upon ways of doing things.
-Abilty to quickly rollback and test different things out.
+Ability to quickly rollback and test different things out.
 Accountability - awareness others can see who made changes and quality of workmanship.
 
 
@@ -20,33 +21,38 @@ Logical parts of work which make sense.
 user decides when to save
 size, and timing of change recording can vary.
 
-Cons:
+CONS:
 reliance on user to remember and decide correctly when to commit.
 Possible to not have committed regularly enough or too many commits
 extra work/time to do to record what has changed.
 
-automatic:
-Pros
-user doesnt have to think about it
+Automatic:
+PROS:
+user doesn't have to think about it
 regular timing of updates can capture progress especially if unexpected error occurs
-Cons:
+
+CONS:
 possibility saved version does not include everything
 Doesn't record detail about what as changes to make it easier to relocate the changes or understand history of changes.
+
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
 There's usually no relationship between files in Google Docs. In Code the files do interrelate and it makes sense to group files in commits. With Git - the whole project is the item being tracked  that whole project is made up of multiple smaller parts. In Google Docs - usually  the single file contains the entire project and all its sub parts to be saved.
 
+
 How can you use the commands git log and git diff to view the history of files?
 
 git log show a summary of changes and allows you to select the appropriate change you are interested in. git diff allows you to compare the version and previous version to identify what was added for the commit you are interested in.
+
 
 How might using version control make you more confident to make changes that
 could break something?
 
 You know you can trace code changes and revert back to previous code states.
 
+
 Now that you have your workspace set up, what do you want to try using Git for?
 
-I'll use Git for local experiments.clone
+I'll use Git for local experiments.
