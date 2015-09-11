@@ -38,7 +38,10 @@ users.
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+Git is able to detect changes in state on the repository in remote.  User can be
+disconnected from remote and reconnect later to get updates and sync. Other
+things can ocur on remote repository that dont conflict with local until ready
+to merge.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
