@@ -47,17 +47,26 @@ to merge.
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-There are alternatives available such as Gitbucket and SVN. There are
-alternatives such as shared network directories and file sharing sites.
-Difficulty is keeping the versions information and manually merging using file
-merge tools. Also need to deal with situations where two people try to update
-the file at the same time with possible overwrites occuring. Could create a
-database system to manage and generate the code from the database entries.
-Possibly could use a wordprocessor to track changes and merge. But the reality
-is all these options are  prone to errors and harder to use.
+There are alternative version control packages available e.g. SVN. SVN doesn't
+offer the same forking solution provided in git/github. There are alternatives
+such as shared network directories and file sharing sites. Difficulty is keeping
+the versions information and manually merging using file merge tools. Also need
+to deal with situations where two people try to update the file at the same time
+with possible overwrites occurring. Could create a database system to manage and
+generate the code from the database entries. Possibly could use a word processor
+to track changes and merge. But the reality is all these options are prone to
+errors and harder to use.
 
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+Using branches allows the developer to to work on a side feature without
+impacting the master branch. Advantages of use branches makes it easier to merge
+back into the master branch if changes occur on the repository master branch
+while development on the other branch was carried out. Allows others to
+collaborate on the same project  Allows the master branch to have updates
+applied and potentially released and used while development on side feature is
+completed. Editing directly onto master branch allows the change to be included
+potentially quicker and be included in any other branches created off master
+after their commit.
