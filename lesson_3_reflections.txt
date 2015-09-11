@@ -43,10 +43,19 @@ disconnected from remote and reconnect later to get updates and sync. Other
 things can ocur on remote repository that dont conflict with local until ready
 to merge.
 
+
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+There are alternatives available such as Gitbucket and SVN. There are
+alternatives such as shared network directories and file sharing sites.
+Difficulty is keeping the versions information and manually merging using file
+merge tools. Also need to deal with situations where two people try to update
+the file at the same time with possible overwrites occuring. Could create a
+database system to manage and generate the code from the database entries.
+Possibly could use a wordprocessor to track changes and merge. But the reality
+is all these options are  prone to errors and harder to use.
+
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
